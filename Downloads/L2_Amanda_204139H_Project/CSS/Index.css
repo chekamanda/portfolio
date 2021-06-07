@@ -1,0 +1,89 @@
+/* CSS For Index Page only */
+
+
+/* Button */
+.button {
+    border-radius: 5px;
+    background-color: white;
+    border: black 2px solid;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+    color:white;
+}
+
+.button:hover {
+    background: black;
+    border: white 2px solid;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#container {
+    margin-top: 15%;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    /* border:red 2px solid; */
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /* border:black solid 2px;  */
+     width: 80%;
+}
+
+/* Section */
+
+/* Section 1 */
+
+#section1 {
+    background-color: #EBBB10;
+    padding-top: 50px;
+}
+
+/* Section 2 */
+
+.section1-gallery {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    /* padding-left: 20px; */
+    padding-right: 20px;
+}
+
+.section1-gallery img {
+    border: black 3px solid;
+}

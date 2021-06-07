@@ -1,0 +1,120 @@
+    /* CSS  for ACYT-FASHION , BANNER,WEBSITE,BUSNIESS,UI-DESIGN */
+
+    
+    /* Project details section */
+    #container {
+        margin-left: 20px;
+        /* border:red 2px solid; */
+    }
+
+    /* Back to gallery Button */
+
+    .button {
+        border-radius: 5px;
+        background-color: white;
+        border: black 2px solid;
+        color: black;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+        width: 200px;
+        text-transform: uppercase;
+        margin-top:-20px;
+    }
+
+    button:hover {
+        background: #EBBB10;
+        color: white;
+    }
+
+    /* Project Slideshow */
+
+    .container {
+        /* Position the image container (needed to position the left and right arrows) */
+        position: relative;
+        padding-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        /* border:blue 2px solid; */
+    }
+
+    .cursor {
+        /* Add a pointer when hovering over the thumbnail images */
+        cursor: pointer;
+    }
+
+    .prev {
+        /* Next & previous buttons */
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        margin-top: -50px;
+        color: grey;
+        font-weight: bold;
+        font-size: 70px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+        margin-left: -5%;
+    }
+
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        margin-top: -50px;
+        color: grey;
+        font-weight: bold;
+        font-size: 70px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+        margin-left: 50%;
+    }
+
+    .prev:hover, .next:hover {
+        /* On hover, add a black background color with a little bit see-through */
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .numbertext {
+        /* Number text (1/3 etc) */
+        color: red;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    .row:after {
+        /* Container for image text */
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .column {
+        /* Thumbnail , side by side */
+        float: left;
+        width: 12%;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+
+    .demo {
+        opacity: 0.6;
+    }
+
+    .active, .demo:hover {
+        opacity: 1;
+    }
+
+    .project-details {
+        position: absolute;
+        right: 100px;
+        bottom: 350px;
+    }
+
+    .container {
+        margin-left: 100px;
+    }

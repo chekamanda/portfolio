@@ -1,0 +1,162 @@
+/* Default setting ,Font Etc */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Myriad Pro;
+    font-size: 10pt;
+    color: #000000;
+}
+
+section {
+    padding-top: 50px;
+}
+
+/* Navigation */
+
+nav {
+    background-color: black;
+    font-family: Bodoni 72 Oldstyle;
+    font-size: 1.2em;
+    color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    font-size: 1.3em;
+    padding-left: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.logo a:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+    line-height: 3em;
+    margin-top:10px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+nav .logo {
+    padding-left: 3%;
+    /* width: 100%; */
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Footer */
+
+footer {
+
+
+    padding: 20px;
+    background-color: black;
+}
+
+footer p {
+    text-align: center;
+    padding-right: 60px;
+}
+
+/* Font */
+
+.text {
+    font-family: Bodoni 72 Oldstyle;
+    line-height: 25px;
+    font-size: 15pt;
+}
+
+.ModuleName {
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15pt;
+}
+
+.introduction {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 15pt;
+}
+
+.name {
+    font-family: Bodoni 72 Oldstyle;
+    font-weight: bold;
+    font-size: 30pt;
+    line-height: 42.93pt;
+}
+
+.CourseName {
+    font-family: Bodoni 72 Oldstyle;
+    font-style: italic;
+    font-size: 20pt;
+}
+
+.Header {
+    font-family: Bodoni 72 Oldstyle;
+    font-size: 50pt;
+    line-height: 20pt;
+    margin-bottom: 20px;
+}
+
+.caption {
+    font-family: Bodoni 72 Oldstyle;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+footer {
+    Font-family: Chalkboard SE;
+    font-size: 10px;
+    color: #FFFFFF;
+    color: rgb(255, 255, 255);
+}
+
+.quote {
+    font-family: Bodoni 72 Oldstyle;
+    font-style: italic;
+    font-size: 25pt;
+    line-height: 50pt;
+    letter-spacing: 1pt;
+    color: #1A1A1B;
+}
+
+.field {
+    font-family: Bodoni 72 Oldstyle;
+    font-style: Bold;
+    font-size: 15pt;
+    color: #1A1A1B;
+}
